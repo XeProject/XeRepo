@@ -18,7 +18,7 @@ Xenon Repository is a **collection of optimizations** for the operating system, 
 Mainly to give everyone **a way to easily get Windows optimizations** without looking over 19 pages of Google. It's free, as it should be and for the **content creators out there who make FPS Boosting Guides, USE THIS REPO!**
 
 ## ✨ What's so special?
-Aside from being a great area to get scripts and commands, it also includes **an AIO Injecter**, which at 1 command, can** automatically apply all the commands at once**, **saving time** and being _'plug-&-play'_ styled. The AIO is the **main foucus in terms of updating this repo**, but **new scripts, if possible, will be added into the repository as well**.
+Aside from being a great area to get scripts and commands, it also includes **an AIO Injecter**, which at 1 command, can **automatically apply all the commands at once**, **saving time** and being _'plug-&-play'_ styled. The AIO is the **main foucus in terms of updating this repo**, but **new scripts, if possible, will be added into the repository as well**.
 
 You can go to the 'scripts' folder on 'main/scripts' to see all the files and its code.
 
