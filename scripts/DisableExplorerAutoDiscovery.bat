@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling EAD
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Reset Explorer Folder View Settings ===
 
@@ -18,3 +22,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ^
    $allFolders = 'HKCU:\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell'; ^
    if (!(Test-Path $allFolders)) {New-Item -Path $allFolders -Force | Out-Null; Write-Host 'Created ' $allFolders}; ^
    New-ItemProperty -Path $allFolders -Name 'FolderType' -Value 'NotSpecified' -PropertyType String -Force | Out-Null; ^
+
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

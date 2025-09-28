@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo GPU Optimizations
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -15,4 +19,10 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multime
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v "TdrLevel" /t REG_DWORD /d 0 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v "TiledResources" /t REG_DWORD /d 1 /f
 
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause
 

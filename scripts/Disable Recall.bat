@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
-echo Disabling RecallAI
+echo Deleting Copilot
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -15,3 +19,10 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy" /v VerifiedAndReputabl
 :: === Remove Recall Feature ===
 
 dism /Online /Disable-Feature /FeatureName:Recall /Quiet /NoRestart
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

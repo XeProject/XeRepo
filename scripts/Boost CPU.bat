@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Boosting CPU
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -87,3 +91,10 @@ reg add "HKU\S-1-5-18\Control Panel\Desktop" /v FontSmoothingOrientation /t REG_
 reg add "HKU\S-1-5-18\Control Panel\Desktop" /v FontSmoothingType /t REG_DWORD /d 2 /f
 reg add "HKU\S-1-5-18\Control Panel\Desktop" /v UserPreferencesMask /t REG_BINARY /d 9e3e038012000000 /f
 reg add "HKU\S-1-5-18\Control Panel\Desktop" /v LockScreenAutoLockActive /t REG_SZ /d 0 /f
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

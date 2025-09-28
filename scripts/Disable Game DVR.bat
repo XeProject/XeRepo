@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling GameDVR
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -19,3 +23,10 @@ reg add "HKCU\Software\Microsoft\GameBar" /v GamePanelStartupTipIndex /t REG_DWO
 reg add "HKCU\Software\Microsoft\GameBar" /v AllowAutoGameMode /t REG_DWORD /d 0 /f
 reg add "HKCU\Software\Microsoft\GameBar" /v AutoGameModeEnabled /t REG_DWORD /d 0 /f
 reg add "HKCU\Software\Microsoft\GameBar" /v UseNexusForGameBarEnabled /t REG_DWORD /d 0 /f
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

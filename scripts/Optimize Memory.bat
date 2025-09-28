@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Optimizing Memory
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -34,3 +38,10 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
 PowerShell -Command "Disable-MMAgent -MemoryCompression"
 fsutil behavior query memoryusage
 fsutil behavior set memory usage 2
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

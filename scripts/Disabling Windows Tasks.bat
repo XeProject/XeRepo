@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling Windows Tasks
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Windows Tasks ===
 
@@ -55,3 +59,10 @@ schtasks /Change /TN "Microsoft\Windows\Diagnostics\Scheduled" /Disable
 
 schtasks /End /TN "Microsoft\Windows\Search\GatherUserDiaries"
 schtasks /Change /TN "Microsoft\Windows\Search\GatherUserDiaries" /Disable
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

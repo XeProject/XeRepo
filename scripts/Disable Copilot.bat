@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Deleting Copilot
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -22,3 +26,10 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\Shell\Copilot\BingChat" /v IsUserEligib
 powershell -Command "Get-AppxPackage -AllUsers *Copilot* | Remove-AppxPackage -AllUsers"
 powershell -Command "Get-AppxProvisionedPackage -Online | Where-Object PackageName -like '*Copilot*' | Remove-AppxProvisionedPackage -Online"
 dism /online /remove-package /package-name:Microsoft.Windows.Copilot
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

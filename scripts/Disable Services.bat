@@ -1,10 +1,15 @@
-cls
+@echo off
 
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling Services
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 sc config AJRouter start= disabled
 sc config ALG start= demand
@@ -289,3 +294,10 @@ sc config workfolderssvc start= demand
 sc config wscsvc start= delayed-auto
 sc config wuauserv start= demand
 sc config wudfsvc start= demand
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

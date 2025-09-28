@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling Telemetry
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Disabling Telemetry Tasks ===
 
@@ -169,4 +173,10 @@ icacls $autoLoggerDir /deny SYSTEM:`(OI`)`(CI`)F | Out-Null; ^
 Set-MpPreference -SubmitSamplesConsent 2 -ErrorAction SilentlyContinue | Out-Null
 "
 
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause
 

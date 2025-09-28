@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Simple Optimizations
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -28,3 +32,10 @@ net stop "WSearch"
 :: === Tasks ===
 
 schtasks /Delete /TN "Microsoft\Windows\Speech\SpeechModelDownloadTask" /F
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Optimizing TCP (Net)
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -44,3 +48,10 @@ PowerShell.exe Set-NetTCPSetting -SettingName internet -MaxSynRetransmissions 2
 PowerShell.exe Set-NetTCPSetting -SettingName internet -NonSackRttResiliency disabled
 PowerShell.exe Set-NetTCPSetting -SettingName internet -InitialRto 2000
 PowerShell.exe Set-NetTCPSetting -SettingName internet -MinRto 300
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling OneDrive
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === OneDrive Removal ===
 
@@ -47,3 +51,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ^
    } else { ^
        Write-Host 'Nothing to clean up with OneDrive' -ForegroundColor Red; ^
    }"
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

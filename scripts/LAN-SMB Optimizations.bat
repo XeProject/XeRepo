@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Optimizing LAN/SMB
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -15,4 +19,10 @@ reg add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v IRPS
 reg add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v SharingViolationDelay /t REG_DWORD /d 0 /f
 reg add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v SharingViolationRetries /t REG_DWORD /d 0 /f
 
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause
 

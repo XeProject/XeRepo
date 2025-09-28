@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling Office Telemetry
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -41,3 +45,11 @@ schtasks /end /tn "\Microsoft\Office\OfficeTelemetryAgentFallBack"
 schtasks /change /tn "\Microsoft\Office\OfficeTelemetryAgentFallBack" /disable
 schtasks /end /tn "\Microsoft\Office\OfficeTelemetryAgentLogOn"
 schtasks /change /tn "\Microsoft\Office\OfficeTelemetryAgentLogOn" /disable
+
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause

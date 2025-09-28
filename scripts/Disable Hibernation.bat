@@ -1,10 +1,14 @@
-cls
-
+@echo off
 echo.
 echo.
 echo ==== @PUR3S7 ====
 echo Disabling Hibernation
 echo =================
+echo.
+echo.
+echo ==== Start ====
+echo.
+echo.
 
 :: === Registry Tweaks ===
 
@@ -15,3 +19,10 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "HibernateEnabledDefaul
 :: === Powercfg Disable
 
 powercfg.exe /hibernate off
+
+echo.
+echo.
+echo ==== Done ====
+echo.
+echo.
+pause
