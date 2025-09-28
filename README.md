@@ -32,4 +32,5 @@ It is only :
 
 The raw code can be **extracted and be used without giving credits** to this repository like the MIT license asks you so. But, it is **appriciated for you to star this repo** to show it to a larger and boader audience. Thank you.
 
-And if you are **using AIO Injector** in your matter, even if with remix or adaptation, the MIT license **must be included** too.
+> [!CAUTION]
+> If you are **using AIO Injector** in your matter, even if with remix or adaptation, the MIT license **must be included** too.
