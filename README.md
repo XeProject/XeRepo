@@ -10,7 +10,9 @@ Introducing Xenon Repository (XeRepo)
 
 *"The library of Windows Optimizations."*
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/xeproject/xerepo/total?style=for-the-badge&color=lightblue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/xeproject/xerepo?style=for-the-badge&color=gold)
+![Static Badge](https://img.shields.io/badge/Discord-Join-%235865F2?style=for-the-badge&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FXyXctdthVZ)
 
 </div>
 
