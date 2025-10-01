@@ -2,6 +2,8 @@
 
 Introducing Xenon Repository (XeRepo)
 
+<img src="images/xerepo.png" alt="XeRepo" width="1100">
+
 </h1>
 
 <div align="center">
