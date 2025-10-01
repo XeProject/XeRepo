@@ -12,7 +12,8 @@ Introducing Xenon Repository (XeRepo)
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/xeproject/xerepo/total?style=for-the-badge&color=lightblue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/xeproject/xerepo?style=for-the-badge&color=gold)
-![Static Badge](https://img.shields.io/badge/Discord-Join-%235865F2?style=for-the-badge&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FXyXctdthVZ)
+![GitHub Tag](https://img.shields.io/github/v/tag/xeproject/xerepo?style=for-the-badge&label=XI%20Release&color=brightgreen)
+![Discord](https://img.shields.io/discord/1351857871838777374?style=for-the-badge&logo=discord&logoColor=white&label=Join%20Us&color=%235865F2&link=https://discord.gg/XyXctdthVZ)
 
 </div>
 
