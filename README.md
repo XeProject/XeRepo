@@ -75,7 +75,5 @@ The raw code can be **extracted and be used without giving credits** to this rep
 > - Contibuted = Gave us code for this repository.
 
 - [ChirsTitus' Winutil](https://github.com/ChrisTitusTech/winutil) = Heavily inspired/taken for various .bat files.
-- [Meetrevision](https://github.com/meetrevision) = DeleteAppX.ps1 is inspired by Revision's APPX-REMOVER.ps1
-- [Meetrevision](https://github.com/meetrevision) = DeleteEdge.ps1 is inspired by Revision's EDGE.ps1
 - [SG TCP Optimizer](https://www.speedguide.net/downloads.php) = TCP Optimizations.bat is taken from SG TCP Optimizer.
 - [Purest "PUR3S7"](https://www.github.com/PUR3S7) = Most of my code was also used to contribute this repository.
