@@ -69,11 +69,10 @@ The raw code can be **extracted and be used without giving credits** to this rep
 ## Credits
 
 > [!NOTE]
-> Credits for **tweaks will be mentioned**. Most of the scripts **here were nade and bundled a long, long time ago, so we could not recall them**.
+> Credits for **tweaks will be mentioned**. Most of the scripts **here were made and bundled a long, long time ago, so we could not recall them**.
 > - Inspired = An remake of code that isn't completely the same code but does the same function.
 > - Taken = Full Code has been taken.
 > - Contibuted = Gave us code for this repository.
 
-- [ChirsTitus' Winutil](https://github.com/ChrisTitusTech/winutil) = Heavily inspired/taken for various .bat files.
 - [SG TCP Optimizer](https://www.speedguide.net/downloads.php) = 'TCP Optimizations.bat' is taken from SG TCP Optimizer.
 - [Purest "PUR3S7"](https://www.github.com/PUR3S7) = Most of my code was also used to contribute this repository.
