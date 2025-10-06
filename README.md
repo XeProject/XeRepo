@@ -74,5 +74,6 @@ The raw code can be **extracted and be used without giving credits** to this rep
 > - Taken = Full Code has been taken.
 > - Contibuted = Gave us code for this repository.
 
-- [SG TCP Optimizer](https://www.speedguide.net/downloads.php) = 'TCP Optimizations.bat' is taken from SG TCP Optimizer.
-- [Purest "PUR3S7"](https://www.github.com/PUR3S7) = Most of my code was also used to contribute this repository.
+- [ChirsTitus' Wintool](https://github.com/ChrisTitusTech/winutil) = XI and how the repository is setup is heavily **inspired** by Winutil.
+- [SG TCP Optimizer](https://www.speedguide.net/downloads.php) = 'TCP Optimizations.bat' is **taken** from SG TCP Optimizer.
+- [Purest "PUR3S7"](https://www.github.com/PUR3S7) = Most of my code was also used to **contribute** this repository.
